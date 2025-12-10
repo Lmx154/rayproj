@@ -1,0 +1,138 @@
+{
+  "dataset": "telemetry_logs.txt",
+  "lines": 80000,
+  "chunk_size": 400,
+  "tasks": 200,
+  "top": [
+    [
+      "event",
+      80000
+    ],
+    [
+      "error",
+      40357
+    ],
+    [
+      "altitude",
+      20708
+    ],
+    [
+      "sensor",
+      20693
+    ],
+    [
+      "motor",
+      20647
+    ],
+    [
+      "imu",
+      20645
+    ],
+    [
+      "timeout",
+      20639
+    ],
+    [
+      "attitude",
+      20632
+    ],
+    [
+      "spi",
+      20628
+    ],
+    [
+      "voltage",
+      20616
+    ],
+    [
+      "retry",
+      20609
+    ],
+    [
+      "quaternion",
+      20588
+    ],
+    [
+      "ok",
+      20586
+    ],
+    [
+      "servo",
+      20567
+    ],
+    [
+      "startup",
+      20559
+    ],
+    [
+      "connect",
+      20545
+    ],
+    [
+      "packet",
+      20535
+    ],
+    [
+      "current",
+      20530
+    ],
+    [
+      "temperature",
+      20519
+    ],
+    [
+      "i2c",
+      20515
+    ]
+  ],
+  "elapsed_s": 1.03,
+  "full_counts": {
+    "info": 20049,
+    "event": 80000,
+    "sensor": 20693,
+    "nav": 20341,
+    "spi": 20628,
+    "voltage": 20616,
+    "servo": 20567,
+    "timestamp": 20459,
+    "packet": 20535,
+    "telemetry": 20277,
+    "disconnect": 20444,
+    "lora": 20324,
+    "i2c": 20515,
+    "queue": 10434,
+    "system": 10394,
+    "status": 20269,
+    "current": 20530,
+    "warn": 19987,
+    "thread": 10184,
+    "crc": 20476,
+    "checksum": 20357,
+    "timeout": 20639,
+    "retry": 20609,
+    "quaternion": 20588,
+    "error": 40357,
+    "shutdown": 20503,
+    "pressure": 20463,
+    "connect": 20545,
+    "user": 10163,
+    "gps": 20504,
+    "motor": 20647,
+    "debug": 20013,
+    "link": 20446,
+    "calibration": 20337,
+    "warning": 20416,
+    "ok": 20586,
+    "temperature": 20519,
+    "task": 10138,
+    "uart": 20349,
+    "altitude": 20708,
+    "buffer": 10308,
+    "heartbeat": 20483,
+    "attitude": 20632,
+    "startup": 20559,
+    "daemon": 10299,
+    "kernel": 10391,
+    "imu": 20645
+  }
+}
